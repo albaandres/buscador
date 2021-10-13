@@ -10,7 +10,7 @@ var cajas= document.querySelector(".texto").innerHTML;
 
 
 function buscaPalabra(){
-
+    document.querySelector(".texto").innerHTML=cajas;
 
    if(palabra.value!=""){
         var sustituir="<mark>"+palabra.value+"</mark>";
